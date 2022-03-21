@@ -1,0 +1,39 @@
+.second {
+    height: 470px;
+    width: 1000px;
+    border-radius: 24px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 24px;
+    margin-bottom: 70px;
+}
+
+.second h2, h3, p {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.second p {
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.second hr {
+    height: 2px;
+    width: 50px;
+    margin-left: 19.5%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border-width: 0;
+}
+.second img {
+    height: 141px;
+}
+
+.third > .button {
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+}

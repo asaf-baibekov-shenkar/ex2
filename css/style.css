@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav, header, section, footer {
+    display: block;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-weight: 700;
+    margin-left: 12px;
+    font-size: 24px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+header .logo > h1 {
+    color: black;
+}
+
+footer .logo > h1 {
+    color: white;
+}
+
+header {
+    padding: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul > li {
+    float: left;
+    padding: 8px 25px;
+}
+
+nav ul > li > a {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+nav > ul :not(.active) {
+    color: gray;
+    font-weight: 400;
+}
+
+nav > ul > li:hover {
+    background-color: rgba(180, 180, 180, 0.1);
+}
+
+nav > ul > li:hover > a {
+    color: black;
+}
+
+section {
+    margin: 25px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    height: 56px;
+    width: 200px;
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.button::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.first {
+    display: flex;
+    align-items: flex-start;
+}
+
+.first > h1 {
+    margin: 0;
+    margin-top: 8px;
+    margin-left: -16px;
+}
+
+footer {
+    height: 425px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .links a {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+footer > p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: #FFFFFF;
+}
