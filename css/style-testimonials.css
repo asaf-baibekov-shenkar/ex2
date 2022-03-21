@@ -11,7 +11,7 @@
     margin-bottom: 70px;
 }
 
-.second h2, h3, p {
+.second h2, .second h3, .second p {
     color: #FFFFFF;
     margin: 0;
 }
