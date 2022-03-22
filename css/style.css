@@ -76,14 +76,15 @@ nav ul {
 
 nav ul > li {
     float: left;
-    padding: 8px 25px;
 }
 
 nav ul > li > a {
+    display: inline-block;
     color: black;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+    padding: 8px 25px;
 }
 
 nav > ul :not(.active) {
@@ -91,12 +92,9 @@ nav > ul :not(.active) {
     font-weight: 400;
 }
 
-nav > ul > li:hover {
-    background-color: rgba(180, 180, 180, 0.1);
-}
-
-nav > ul > li:hover > a {
+nav > ul > li > a:hover {
     color: black;
+    background-color: rgba(180, 180, 180, 0.1);
 }
 
 section {
