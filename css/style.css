@@ -156,29 +156,29 @@ footer > p {
     color: #FFFFFF;
 }
 
-.home-second > img {
+.home .second > img {
     width: 550.46px;
 }
 
-.home-second > .button {
+.home .second > .button {
     color: white;
     background-color: #458FF6;
 }
 
-.home-third > .button {
+.home .third > .button {
     color: #458FF6;
     border: 1.4px solid #458FF6;
 }
 
-.home-second {
+.home .second {
     margin-bottom: 100px;
 }
 
-.home-third {
+.home .third {
     margin-bottom: 330px;
 }
 
-.home-third hr {
+.home .third hr {
     height: 2px;
     width: 50px;
     margin-left: 53px;
@@ -187,12 +187,12 @@ footer > p {
     border-width: 0;
 }
 
-.home-container {
+.home .container {
     margin-top: 100px;
     margin-bottom: 10px;
 }
 
-.home-container > .home-card {
+.home .container > .card {
     margin: 20px;
     display: inline-block;
     width: 300px;
@@ -201,27 +201,27 @@ footer > p {
     box-shadow: 0px 0px 50px 0px #E5E9F6;
 }
 
-.home-container > .home-card > .home-content {
+.home .container > .card > .content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
 }
 
-.home-container > .home-card > .home-content > img {
+.home .container > .card > .content > img {
     height: 70px;
 }
 
-.home-container > .home-card > .home-content > h3 {
+.home .container > .card > .content > h3 {
     margin-top: 30px;
 }
 
-.home-container > .home-card > .home-content > p {
+.home .container > .card > .content > p {
     margin: 0;
     height: 100px;
 }
 
-.testimonials-second {
+.testimonials .second {
     height: 470px;
     width: 1000px;
     border-radius: 24px;
@@ -234,17 +234,17 @@ footer > p {
     margin-bottom: 70px;
 }
 
-.testimonials-second h2, .testimonials-second h3, .testimonials-second p {
+.testimonials .second h2, .testimonials .second h3, .testimonials .second p {
     color: #FFFFFF;
     margin: 0;
 }
 
-.testimonials-second p {
+.testimonials .second p {
     font-weight: 400;
     line-height: 30px;
 }
 
-.testimonials-second hr {
+.testimonials .second hr {
     height: 2px;
     width: 50px;
     margin-left: 19.5%;
@@ -253,11 +253,11 @@ footer > p {
     border-width: 0;
 }
 
-.testimonials-second img {
+.testimonials .second img {
     height: 141px;
 }
 
-.testimonials-container > .testimonials-card {
+.testimonials .container > .card {
     margin: 20px;
     display: inline-block;
     width: 350px;
@@ -266,43 +266,44 @@ footer > p {
     border-radius: 20px;
 }
 
-.testimonials-container > .testimonials-card > .testimonials-content {
+.testimonials .container > .card > .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 32px;
 }
 
-.testimonials-container > .testimonials-card > img {
+.testimonials .container > .card > img {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.testimonials-container > .testimonials-card > .content > h3 {
+.testimonials .container > .card > .content > h3 {
     margin: 0;
 }
 
-.testimonials-container > .testimonials-card > .testimonials-content > p {
+.testimonials .container > .card > .content > p {
     font-size: 16px;
+    height: 96px;
 }
 
-.testimonials-container > .testimonials-card > .testimonials-content > a {
+.testimonials .container > .card > .content > a {
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
 
-.testimonials-container > .testimonials-card > .testimonials-content > a > span {
+.testimonials .container > .card > .content > a > span {
     color: #4089ED;
 }
 
-.testimonials-container > .testimonials-card > .testimonials-content > a > img {
+.testimonials .container > .card > .content > a > img {
     width: 14px;
     margin-left: 8px;
 }
 
-.testimonials-third > .button {
+.testimonials .third > .button {
     color: #458FF6;
     border: 1.4px solid #458FF6;
     margin: 30px 0;
