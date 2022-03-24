@@ -214,6 +214,7 @@ footer > p {
 
 .home .container > .card > .content > h3 {
     margin-top: 30px;
+    color: black;
 }
 
 .home .container > .card > .content > p {
@@ -281,6 +282,7 @@ footer > p {
 
 .testimonials .container > .card > .content > h3 {
     margin: 0;
+    color: black;
 }
 
 .testimonials .container > .card > .content > p {
@@ -288,17 +290,17 @@ footer > p {
     height: 96px;
 }
 
-.testimonials .container > .card > .content > a {
+.testimonials .container > .card > .content > div {
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
 
-.testimonials .container > .card > .content > a > span {
+.testimonials .container > .card > .content > div > span {
     color: #4089ED;
 }
 
-.testimonials .container > .card > .content > a > img {
+.testimonials .container > .card > .content > div > img {
     width: 14px;
     margin-left: 8px;
 }
